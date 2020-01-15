@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  background: #ffeeba;
+}
+.logo{
+  flex-basis: 20%;
+  cursor: pointer;
+}
+.logo img{
+  height: 68px;
+  margin-left: 35%;
+}
+.list{
+  flex-basis: 63%;
+  margin-left: 17%;
+}
+.list ul{
+  height: 69px;
+  cursor: pointer;
+}
+.list ul li{
+  font-size: 24px;
+  text-align: center;
+  border: 0px;
+}
