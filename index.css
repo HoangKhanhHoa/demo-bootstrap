@@ -1,42 +1,32 @@
 body{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.header{
-  display: flex;
-  background: #ffeeba;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .logo{
-  flex-basis: 20%;
-  cursor: pointer;
+  display: flex;
+  width: 14%;
 }
 .logo img{
-  height: 68px;
-  margin-left: 35%;
+  width: 41%;
 }
-.list{
-  flex-basis: 63%;
-  margin-left: 17%;
+.logo h1 a{
+  font-size: 40px;
+  font-family: "OleoScript Regular";
 }
-.list ul{
-  height: 69px;
-  cursor: pointer;
+#navbarTogglerDemo02{
+  margin-left: 15%;
 }
-.list ul li{
+#navbarTogglerDemo02 ul li{
   font-size: 24px;
-  text-align: center;
-  border: 0px;
-}
-.list ul li a{
-    color: #a28427;
-    text-decoration: none;
+  padding: 6px;
 }
 .carousel-item img{
   height: 520px;
+  width: 100%;
 }
-.container {
+.container-fluid {
   margin-top: 58px;
 }
-.col-6 img{
+.col-md-6 img{
   width: 100%;
   height: 345px;
   border-radius: 9px;
@@ -45,11 +35,24 @@ body{
 .img-1{
   overflow: hidden;
   padding: 0;
+  order: -1;
 }
-.col-6 img:hover{
+.col-md-6 img:hover{
   transform: scale(1.1);
 }
-.col-6 h5{
+.row__title{
+  text-align: center;
+  padding-bottom: 34px;
+}
+.row__title::after{
+  content: '';
+  background-color: #7b6c63;
+  display: block;
+  height: 6px;
+  width: 76px;
+  margin: 42px auto 40px;
+}
+.row__title h2{
   text-transform: uppercase;
   color:#5c9cfb;
 }
@@ -57,6 +60,8 @@ body{
   font-size: 35px;
   font-family: sans-serif;
   text-transform: capitalize;
+  margin-bottom: 69px;
+  text-align: center;
 }
 .intro__content{
   font-style: italic;
@@ -69,20 +74,55 @@ body{
 #product{
   background-color:#e7eef3;
 }
+#product .row{
+  padding-bottom: 17px;
+}
 .product_title{
   text-align: center;
   padding-top: 55px;
   padding-bottom: 35px;
 }
-.product_title h5{
+.product_title h2{
   text-transform: uppercase;
   color: #5c9cfb;
+}
+.product_title h2::after{
+  content: '';
+  background-color: #7b6c63;
+  display: block;
+  height: 6px;
+  width: 76px;
+  margin: 42px auto 40px;
 }
 .product_title p{
   font-family: sans-serif;
   font-size: 18px;
 }
 .card-body{
-  padding-top: 31px;
+  padding: 31px 2% 11px;
+}
+.card:hover{
+  transition: 0.5s;
+  box-shadow: -0.7rem 0.5rem 0.7rem 0.3rem #e0d1d1;
+  transform: translateY(-1.7rem) translateX(0.25rem);
+}
+#about{
+  margin: 58px 3%;
+}
+.about_us{
+  text-align: center;
+  color: #5c9cfb;
+  text-transform: uppercase;
+}
+.about_us::after{
+  content: '';
+  background-color: #7b6c63;
+  display: block;
+  height: 6px;
+  width: 76px;
+  margin: 42px auto 40px;
+}
+.skill{
+  padding-bottom: 20px;
 }
 
