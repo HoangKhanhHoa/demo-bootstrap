@@ -17,50 +17,93 @@
     </div>
     <div class="list">
       <ul class="list-group list-group-horizontal">
-        <li class="list-group-item list-group-item-action list-group-item-warning">Home</li>
-        <li class="list-group-item list-group-item-action list-group-item-warning">Home</li>
-        <li class="list-group-item list-group-item-action list-group-item-warning">Home</li>
-        <li class="list-group-item list-group-item-action list-group-item-warning">Home</li>
+        <li class="list-group-item list-group-item-action list-group-item-warning">
+          <a href="#home">Home</a>
+        </li>
+        <li class="list-group-item list-group-item-action list-group-item-warning">
+          <a href="#intro">Intro</a>
+        </li>
+        <li class="list-group-item list-group-item-action list-group-item-warning">
+          <a href="#product">Product</a>
+        </li>
+        <li class="list-group-item list-group-item-action list-group-item-warning">
+          <a href="#about">About</a>
+        </li>
+        <li class="list-group-item list-group-item-action list-group-item-warning">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </header>
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-interval="2000">
-        <img src="img/plane1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+  <div id="home">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+        <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="2000">
+          <img src="img/plane1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="img/item_plane1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="img/item_plane2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item" data-interval="2000">
-        <img src="img/item_plane1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container container-fluid" id="intro">
+    <div class="row">
+      <div class="col-6">
+        <h5>intro</h5>
+        <p class="intro__title">
+          AirBus is one of the most famous airlines in the world.
+        </p>
+        <p class="intro__content">
+          "With great utilities, you will have an enjoyable experience and a safe feeling when choosing us. Introduce us to your friends so that they can enjoy the safe and relaxing moments like in your own house."
+        </p>
+        <p class="intro__content">
+          "With the mission of being one of the leading developers, we are ready to take the lead in developing and improving the quality of the aviation service industry."
+        </p>
+        <p class="intro__ceo">
+          Guillaume Faury - CEO
+        </p>
       </div>
-      <div class="carousel-item" data-interval="2000">
-        <img src="img/item_plane2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
+      <div class="col-6 img-1">
+        <img src="img/plane1-2.jpg">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  </div>
+  <div id="product" class="container container-fluid">
+    <div class="row">
+      <h5>product</h5>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
   </div>
 </body>
 </html>
