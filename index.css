@@ -23,3 +23,6 @@
   text-align: center;
   border: 0px;
 }
+.carousel-item img{
+  height: 520px;
+}
