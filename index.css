@@ -154,8 +154,6 @@ body{
   opacity: 1;
   transform: none;
 }
-.content__title{
-}
 .content__detail{
   position: absolute;
   top: 50%;
@@ -163,9 +161,15 @@ body{
   transform: translate(-50%, -50%);
   width: 50%;
 }
+.contact-us{
+  margin-bottom: 74px;
+}
 .contact-us__title{
   text-align: center;
   padding-bottom: 34px;
+  color: #5c9cfb;
+  text-transform: uppercase;
+  padding-top: 48px;
 }
 .contact-us__title::after{
   content: '';
@@ -179,4 +183,18 @@ body{
   text-transform: uppercase;
   color:#5c9cfb;
 }
-
+.form-contact{
+  width: 100%;
+  padding: 5%;
+}
+.footer{
+  background: #f8f9fa;
+  padding: 12px 0;
+  text-align: center;
+}
+.footer__content{
+  color: #595959;
+  font-family: "Raleway Regular";
+  letter-spacing: 1px;
+  padding-top: 15px;
+}
