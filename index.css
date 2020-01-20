@@ -6,7 +6,7 @@ body{
   width: 14%;
 }
 .logo img{
-  width: 41%;
+  min-width: 41%;
 }
 .logo h1 a{
   font-size: 40px;
@@ -35,7 +35,6 @@ body{
 .img-1{
   overflow: hidden;
   padding: 0;
-  order: -1;
 }
 .col-md-6 img:hover{
   transform: scale(1.1);
@@ -127,12 +126,20 @@ body{
 }
 .image img{
   width: 100%;
-  height: 90%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0%;
+  position: absolute;
 }
 .image{
   position: relative;
   font-size: 0;
   overflow: hidden;
+  display: block;
+  padding-top: 56.25%;
+  margin-bottom: 20px;
+  height: 372px;
 }
 .content{
   display: block;
@@ -142,8 +149,8 @@ body{
   padding: 20px;
   position: absolute;
   top: 0;
-  height: 90%;
-  width: 93%;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transform: scale(0) translate(-100%);
   transition: all .5s ease-in-out;
@@ -163,6 +170,7 @@ body{
 }
 .contact-us{
   margin-bottom: 74px;
+  background: #f3ffff;
 }
 .contact-us__title{
   text-align: center;
@@ -197,4 +205,10 @@ body{
   font-family: "Raleway Regular";
   letter-spacing: 1px;
   padding-top: 15px;
+}
+@media (max-width: 425px) and (min-width:320px){
+  .img-1{
+    order: -1;
+    margin-bottom: 20px;
+  }
 }
