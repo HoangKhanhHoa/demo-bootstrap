@@ -3,17 +3,10 @@ body{
 }
 .logo{
   display: flex;
-  width: 14%;
-}
-.logo img{
-  min-width: 41%;
 }
 .logo h1 a{
   font-size: 40px;
-  font-family: "OleoScript Regular";
-}
-#navbarTogglerDemo02{
-  margin-left: 15%;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 #navbarTogglerDemo02 ul li{
   font-size: 24px;
@@ -34,10 +27,6 @@ body{
 }
 .img-1{
   overflow: hidden;
-  padding: 0;
-}
-.col-md-6 img:hover{
-  transform: scale(1.1);
 }
 .row__title{
   text-align: center;
@@ -169,12 +158,10 @@ body{
   width: 50%;
 }
 .contact-us{
-  margin-bottom: 74px;
   background: #f3ffff;
 }
 .contact-us__title{
   text-align: center;
-  padding-bottom: 34px;
   color: #5c9cfb;
   text-transform: uppercase;
   padding-top: 48px;
@@ -193,7 +180,6 @@ body{
 }
 .form-contact{
   width: 100%;
-  padding: 5%;
 }
 .footer{
   background: #f8f9fa;
@@ -202,7 +188,7 @@ body{
 }
 .footer__content{
   color: #595959;
-  font-family: "Raleway Regular";
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   letter-spacing: 1px;
   padding-top: 15px;
 }
